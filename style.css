@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  /* background: rgb(0, 0, 0); */
+  background: #f6f8fb;
+  color: #283347;
+  margin: 0px ;
+  padding: 0px;
+}
+.navbar {
+  background: #2d56c5;
+  /* padding: 1em 0; or */
+  margin: 0px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 2px;
+}
+.navbar a {
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  font-weight: bold;
+  border-radius: 40px;
+  text-decoration: none;      /*underline ke liye use */
+}
+.navbar a:hover {
+  background: #28d6d6fc;
+}
+.hii {
+  background: linear-gradient(90deg, #2d56c5 70%, #28d6d6 100%);
+  color: #fff;
+  text-align: center;
+  padding: 3em 0 2em 0;
+}
+.button1 {
+  display: inline-block;
+  margin-top: 1em;
+  background: #28d6d6;
+  color: #fff;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px #2d56c552;
+}
+.features-page, .exchange-page, .testimonials-page {
+  max-width: 520px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 1px 7px #2d56c522;
+  padding: 2em;
+  text-align: center;
+}
+.features-page ul {
+  list-style: none;
+  padding: 0;
+}
+.features-page li {
+  background: #f0f5ff;
+  margin: 0.7em 0;
+  padding: 0.8em;
+  border-radius: 6px;
+  color: #2d56c5;
+  font-weight: bold;
+}
+.exchange-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  background: #f8fafe;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.exchange-page th, .exchange-page td {
+  padding: 1em;
+  text-align: center;
+}
+.exchange-page th {
+  background: #2d56c5;
+  color: #fff;
+}
+.exchange-page tr:nth-child(even) {
+  background: #f0f5ff;
+}
+.testimonials-page .testimonial {
+  background: #28d6d6;
+  color: #fff;
+  border-radius: 11px;
+  margin: 1em 0;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+.testimonials-page .testimonial span {
+  display: block;
+  margin-top: 0.6em;
+  font-weight: bold;
+  color: #e1e6f9;
+}
