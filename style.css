@@ -108,6 +108,7 @@ body {
       margin: 0;
       padding: 0;
       background-color: rgba(255, 192, 203, 0.411);
+      
 
     }
     .box-row {
@@ -152,4 +153,11 @@ body {
         width: 90%;
         min-width: 0;
       }
+    }
+
+    .image{
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
     }
