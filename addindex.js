@@ -1,17 +1,20 @@
 function calculate() {
-    // Get input values
-    let principal = parseInt(document.getElementById("container"));
-    let rate = parseInt(document.getElementById("#principal"));
-    let time = parseInt(document.getElementById("#rate"));
-    
 
-    // Apply compound interest formula
-    let amount = principal * (1 + rate / 100) ** time;
+      let principal = parseFloat(document.getElementById("principal").value);
+      let rate      = parseFloat(document.getElementById("rate").value);
+      let time      = parseFloat(document.getElementById("time").value);
 
-    // Format to 2 decimal places
-    let result = amount.toFixed(2);
 
-    // Display result
-    document.getElementById("result").innerText = "Total Amount: " + result;
+      if (isNaN(principal) || isNaN(rate) || isNaN(time)) {
+        document.getElementById("result").innerText = "Please enter valid numbers.";
+        return;
+      }
 
-}
+
+      let amount = principal * Math.pow(1 + rate / 100, time);
+
+  
+      let result = amount.toFixed(2);
+
+      document.getElementById("result").innerText = "Total Amount: " + result;
+    }
